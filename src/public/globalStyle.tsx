@@ -14,6 +14,9 @@ const GlobalStyle = createGlobalStyle`
     a{
         text-decoration:none;
     }
+    select{
+        outline:none;
+    }
 `
 
 export default GlobalStyle;
