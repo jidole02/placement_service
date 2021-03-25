@@ -1,0 +1,1 @@
+export const MinH = "800px";
