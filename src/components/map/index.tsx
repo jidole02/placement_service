@@ -40,7 +40,7 @@ export default function Map() {
 
           var infowindow = new window.kakao.maps.InfoWindow({
             content: iwContent,
-            removable: true, // false이면 닫기 버튼 없음 true이면 있음
+            removable: true, // false이면 닫기 버튼 없음 true이면 있음.
           });
 
           window.kakao.maps.event.addListener(marker, "click", function () {
